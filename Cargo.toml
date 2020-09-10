@@ -1,0 +1,11 @@
+[package]
+name = "enum_for_matches"
+version = "0.1.0"
+authors = ["Fredrick Brennan <copypaste@kittens.ph>"]
+license = "Apache-2.0"
+description = "`enum_for_matches` is a procedural macro that runs a match arm for each enum variant passed into it regardless of type."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
