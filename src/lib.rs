@@ -84,6 +84,5 @@ pub fn run(input: TokenStream) -> TokenStream {
     }
 
     ret.extend(vec![inner.make_token_tree()]);
-    eprintln!("{}", &ret.to_string());
     ret
 }

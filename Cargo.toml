@@ -1,6 +1,6 @@
 [package]
 name = "enum_for_matches"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Fredrick Brennan <copypaste@kittens.ph>"]
 license = "Apache-2.0"
 description = "`enum_for_matches` is a procedural macro that runs a match arm for each enum variant passed into it regardless of type."
