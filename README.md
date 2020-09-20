@@ -26,7 +26,7 @@ Would expand to:
 match e
 {
     TestEnum::I64(i) => { s = i.to_string(); }
-    TestEnum :: U64(i) => { s = i.to_string(); } 
+    TestEnum::U64(i) => { s = i.to_string(); } 
     _ => { }
 }
 ```
